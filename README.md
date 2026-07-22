@@ -65,3 +65,26 @@ End-to-End 검증했습니다.
 식별된 Red Flag는 오류나 부정의 존재를 의미하는 것이 아니라,
 기업 및 환경에 대한 이해와 중요왜곡표시위험 평가를 위해
 추가적인 질문과 검토가 필요한 영역을 의미한다.
+
+## 범용성 검증
+
+Agent 본체는 하이브 외 가상기업 샘플테크 데이터로도 검증했습니다.
+
+- 정상 입력 종료 코드: 0
+- Red Flag: 4
+- Monitoring Signal: 6
+- JSON 및 Markdown 보고서 생성: PASS
+- 필수 계정 누락 차단: PASS
+- 중복 계정 차단: PASS
+- 숫자 오류 차단: PASS
+
+테스트 파일:
+
+- tests/test_generic_normal_input.py
+- tests/test_invalid_inputs.py
+- docs/generic_agent_validation.md
+
+테스트 실행:
+
+python tests/test_generic_normal_input.py
+python tests/test_invalid_inputs.py
