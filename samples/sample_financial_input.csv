@@ -1,7 +1,12 @@
-﻿company,statement_type,account,account_kr,unit,2023,2024,2025
-HYBE,consolidated,Revenue,매출액,KRW_million,2178145.0,2255639.0,2649890.0
-HYBE,consolidated,Operating_Profit,영업이익,KRW_million,295636.0,184000.0,49300.0
-HYBE,consolidated,Net_Income,당기순이익,KRW_million,183424.0,-3400.0,-254400.0
-HYBE,consolidated,Goodwill,영업권,KRW_million,1717432.0,1809809.0,1679490.0
-HYBE,consolidated,Operating_Cash_Flow,영업활동현금흐름,KRW_million,310627.0,151599.0,177260.0
-HYBE,consolidated,Total_Assets,자산총계,KRW_million,5345680.0,5479190.0,5485470.0
+﻿account,company,statement_type,account_kr,unit,2023,2024,2025
+Revenue,HYBE,consolidated,매출액,KRW_million,2178145.0,2255639.0,2649890.0
+Operating_Profit,HYBE,consolidated,영업이익,KRW_million,295636.0,184000.0,49300.0
+Net_Income,HYBE,consolidated,당기순이익,KRW_million,183424.0,-3400.0,-254400.0
+Total_Assets,HYBE,consolidated,자산총계,KRW_million,5345680.0,5479190.0,5485470.0
+Operating_Cash_Flow,HYBE,consolidated,영업활동현금흐름,KRW_million,310627.0,151599.0,177260.0
+Intangible_Assets,HYBE,consolidated,무형자산,KRW_million,2165250.0,2244257.0,1986686.0
+Goodwill,HYBE,consolidated,영업권,KRW_million,1717432.0,1809809.0,1679490.0
+Investment_in_Associates,HYBE,consolidated,관계기업 및 공동기업 투자,KRW_million,241080.0,216075.0,101756.0
+Accounts_Receivable,HYBE,consolidated,매출채권,KRW_million,214977.0,262261.0,283558.0
+Inventory,HYBE,consolidated,재고자산,KRW_million,125860.0,163152.0,184400.0
+Trade_Payables,HYBE,consolidated,매입채무,KRW_million,26000.0,33000.0,56000.0
