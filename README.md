@@ -1,6 +1,8 @@
 
 # HYBE Audit Red Flag & Interview Agent
+[Notion 프로젝트 설명 페이지](https://acidic-sign-1ed.notion.site/HYBE-Audit-Red-Flag-Interview-Agent-3a5917b83675808cb8cdc764b4e0aed2)
 
+[GitHub Repository](https://github.com/kr-min/hybe-audit-red-flag-agent)
 ## 1. 프로젝트 개요
 
 본 프로젝트는 2023~2025년 HYBE 연결재무정보를 바탕으로
