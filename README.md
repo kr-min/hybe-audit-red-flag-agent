@@ -1,8 +1,6 @@
 
 # HYBE Audit Red Flag & Interview Agent
-[Notion 프로젝트 설명 페이지](https://acidic-sign-1ed.notion.site/HYBE-Audit-Red-Flag-Interview-Agent-3a5917b83675808cb8cdc764b4e0aed2)
 
-[GitHub Repository](https://github.com/kr-min/hybe-audit-red-flag-agent)
 ## 1. 프로젝트 개요
 
 본 프로젝트는 2023~2025년 HYBE 연결재무정보를 바탕으로
@@ -114,3 +112,22 @@
 식별된 Red Flag는 오류나 부정의 존재를 의미하는 것이 아니라,
 기업 및 환경에 대한 이해와 중요왜곡표시위험 평가를 위해
 추가적인 질문과 검토가 필요한 영역을 의미합니다.
+
+
+## 범용 재무제표 업로드 MVP
+
+Colab Notebook에서 새로운 CSV 파일을 업로드하면 다음 절차를 자동 실행합니다.
+
+1. 계정명 열과 연도 열 자동 인식
+2. 한국어 및 영문 계정명 표준화
+3. 필수 계정, 중복 계정, 숫자 오류 검증
+4. 10개 결정론적 감사 위험 규칙 실행
+5. Red Flag와 Monitoring Signal 분류
+6. 규칙별 인터뷰 질문 및 요청 증빙 연결
+7. Top 3 우선 검토 영역 선정
+8. JSON 및 Markdown 보고서 저장
+
+현재 질문과 위험 가설은 규칙별 사전 정의 템플릿입니다.
+생성형 AI API는 아직 연결하지 않았습니다.
+
+식별된 Red Flag는 오류나 부정의 존재를 의미하는 것이 아니라, 기업 및 환경에 대한 이해와 중요왜곡표시위험 평가를 위해 추가적인 질문과 검토가 필요한 영역을 의미한다.
