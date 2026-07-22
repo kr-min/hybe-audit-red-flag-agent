@@ -1,6 +1,6 @@
 # 하이브 Audit Red Flag Report
 
-- 입력파일: hybe_dart_financial_input_11_accounts.csv
+- 입력파일: hybe_dart_pipeline_11_accounts.csv
 - 분석기간: 2023-2025
 - 전체 규칙: 10개
 - Red Flag: 7개

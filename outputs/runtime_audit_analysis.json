@@ -1,9 +1,9 @@
 {
   "company": "하이브",
-  "source_file": "hybe_dart_financial_input_11_accounts.csv",
+  "source_file": "hybe_dart_pipeline_11_accounts.csv",
   "analysis_period": "2023-2025",
   "validation": {
-    "source_file": "hybe_dart_financial_input_11_accounts.csv",
+    "source_file": "hybe_dart_pipeline_11_accounts.csv",
     "row_count": 11,
     "recognized_account_count": 11,
     "unrecognized_accounts": [],
